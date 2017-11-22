@@ -77,5 +77,8 @@ TARGET_RECOVERY_FSTAB := device/samsung/fortuna3g/recovery/twrp.fstab
 
 BOARD_GLOBAL_CFLAGS += -DTW_USE_MINUI_CUSTOM_FONTS
 
+# Device Name
+TW_DEVICE_VERSION := GalaxyGrandPrime-O
+
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
