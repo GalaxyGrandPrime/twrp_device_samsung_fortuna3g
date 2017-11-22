@@ -40,6 +40,7 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 
 # TWRP YOLO.
 RECOVERY_VARIANT := twrp
+WITH_TWRP	 := true
 
 # TWRP Configuration
 BOARD_HAS_NO_SELECT_BUTTON 	:= true
